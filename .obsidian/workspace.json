@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "57fb454ec21355dc",
+        "id": "03aa7032862ac8ba",
         "type": "tabs",
         "children": [
           {
-            "id": "32de47d2d3d048ab",
+            "id": "e273c60b74b94160",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md",
+                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md",
+                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md",
+                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md"
+                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "32de47d2d3d048ab",
+  "active": "e273c60b74b94160",
   "lastOpenFiles": [
-    "Objective Memory/Index.md",
     "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md",
+    "Objective Memory/Index.md",
     "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
     "Objective Memory/Computer Science/Graphics/무제 폴더",
     "Objective Memory/Computer Science/Graphics/HongLab",
