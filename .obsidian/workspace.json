@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e960d5f09aaed2dd",
+        "id": "c05b9680bf38f8ca",
         "type": "tabs",
         "children": [
           {
-            "id": "e1ed64656a8068d7",
+            "id": "984b758c7109621d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md"
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md"
               }
             }
           }
@@ -146,10 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e1ed64656a8068d7",
+  "active": "984b758c7109621d",
   "lastOpenFiles": [
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
     "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
     "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md",
     "Objective Memory/Index.md",
