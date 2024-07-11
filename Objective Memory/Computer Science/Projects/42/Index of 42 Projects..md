@@ -1,7 +1,3 @@
----
-:w:
----
-
 projects of 42Seoul.
 ## Circle 0.
 
