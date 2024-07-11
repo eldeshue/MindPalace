@@ -9,11 +9,16 @@
 
 1. Pipex
 2. Push Swap
-3. 
-
+3. FDF
 ## Circle 3.
 
+1. Philosophers
+2. Minishell
 ## Circle 4.
+
+1. CPP Module
+2. MiniRT
+3. Net Practice
 
 
 
