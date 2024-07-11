@@ -11,4 +11,8 @@
 		-> 추후 별도의 리포와 동기화시켜서 Digital Garden으로 Gihub Page에 hosting예정. 
 		
 	2. Personal Memory.
-	3. 
+		* 일기
+		* 아이디어 정리
+		* 소설 작품을 위한 구상 모음
+		* 
+	1. 
