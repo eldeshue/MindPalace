@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md",
+                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md",
+                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md",
+                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md"
+                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md"
               }
             }
           }
@@ -146,11 +146,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "32de47d2d3d048ab",
+  "active": "3b553df576bcde23",
   "lastOpenFiles": [
     "Index of Mind Palace..md",
-    "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md",
-    "Objective Memory/Computer Science/Projects/42Seoul",
+    "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
+    "Objective Memory/Computer Science/Projects/42",
     "Objective Memory/Computer Science/Projects",
     "Objective Memory/Computer Science/Network",
     "Objective Memory/Computer Science/Programming Language",
