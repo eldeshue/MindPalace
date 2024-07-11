@@ -11,8 +11,12 @@
             "id": "e1ed64656a8068d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
+                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
+                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md"
+                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md"
               }
             }
           }
@@ -142,11 +146,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3b553df576bcde23",
+  "active": "e1ed64656a8068d7",
   "lastOpenFiles": [
+    "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
     "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md",
     "Objective Memory/Index.md",
-    "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
     "Objective Memory/Computer Science/Graphics/무제 폴더",
     "Objective Memory/Computer Science/Graphics/HongLab",
     "Objective Memory/Computer Science/Algorithm/Theory",
