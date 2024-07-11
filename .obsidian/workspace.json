@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Index.md",
+                "file": "Index of Mind Palace..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Index.md",
+                "file": "Index of Mind Palace..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Index.md",
+                "file": "Index of Mind Palace..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Index.md"
+                "file": "Index of Mind Palace..md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "3b553df576bcde23",
   "lastOpenFiles": [
+    "Objective Memory/Index.md",
     "Objective Memory/Computer Science/Graphics",
     "Objective Memory/Computer Science/OS",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving",
@@ -155,8 +156,7 @@
     "Objective Memory/무제 폴더",
     "Objective Memory/Mechanical Engineering",
     "Objective Memory/Computer Science",
-    "Mind Palace..md",
-    "Objective Memory/Index.md",
+    "Index of Mind Palace..md",
     "Subjective Memory",
     "Objective Memory",
     "test.md",
