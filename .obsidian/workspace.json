@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/무제 파일.md",
+                "file": "Objective Memory/Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/무제 파일.md",
+                "file": "Objective Memory/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/무제 파일.md",
+                "file": "Objective Memory/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/무제 파일.md"
+                "file": "Objective Memory/Index.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "32de47d2d3d048ab",
   "lastOpenFiles": [
     "Mind Palace..md",
-    "Objective Memory/무제 파일.md",
+    "Objective Memory/Index.md",
     "Subjective Memory",
     "Objective Memory",
     "test.md",
