@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index of Mind Palace..md",
+                "file": "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 234.5
   },
   "right": {
     "id": "78e7307470a5e91c",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index of Mind Palace..md",
+                "file": "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index of Mind Palace..md",
+                "file": "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index of Mind Palace..md"
+                "file": "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md"
               }
             }
           }
@@ -146,8 +146,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3b553df576bcde23",
+  "active": "32de47d2d3d048ab",
   "lastOpenFiles": [
+    "Index of Mind Palace..md",
+    "Objective Memory/Computer Science/Projects/42Seoul/무제 파일.md",
+    "Objective Memory/Computer Science/Projects/42Seoul",
+    "Objective Memory/Computer Science/Projects",
+    "Objective Memory/Computer Science/Network",
     "Objective Memory/Computer Science/Programming Language",
     "Objective Memory/Computer Science/Computer Structure",
     "Objective Memory/Index.md",
@@ -156,11 +161,6 @@
     "Objective Memory/Computer Science/Algorithm/ProblemSolving",
     "Objective Memory/Computer Science/Algorithm",
     "Objective Memory/무제 폴더",
-    "Objective Memory/Mechanical Engineering",
-    "Objective Memory/Computer Science",
-    "Index of Mind Palace..md",
-    "Subjective Memory",
-    "Objective Memory",
     "test.md",
     "test 2.md",
     "Test Files.md"
