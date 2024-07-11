@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Computer Science/Programming Language/C++/Index of C++.md",
+                "file": "Objective Memory/Computer Science/Programming Language/C/Index of C.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Programming Language/C++/Index of C++.md",
+                "file": "Objective Memory/Computer Science/Programming Language/C/Index of C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Programming Language/C++/Index of C++.md",
+                "file": "Objective Memory/Computer Science/Programming Language/C/Index of C.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Programming Language/C++/Index of C++.md"
+                "file": "Objective Memory/Computer Science/Programming Language/C/Index of C.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "984b758c7109621d",
   "lastOpenFiles": [
-    "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
     "Objective Memory/Computer Science/Programming Language/C++/Index of C++.md",
+    "Objective Memory/Computer Science/Programming Language/C/Index of C.md",
+    "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
