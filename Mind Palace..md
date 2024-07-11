@@ -6,6 +6,9 @@
 		* 알고리즘을 비롯한 프로그래밍 언어 및 그래픽스, 기계공학 이론 정리
 		* 알고리즘 문제 풀이 -> 백준, leet code
 		* 42Seoul project.
-		* 
+		* Portfolio
+		
+		-> 추후 별도의 리포와 동기화시켜서 Digital Garden으로 Gihub Page에 hosting예정. 
 		
 	2. Personal Memory.
+	3. 
