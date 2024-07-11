@@ -1,9 +1,13 @@
 
+## Circle 0.
+
+1. Piscine
+2. 
 ## Circle 1.
 
-1. Libft.
-2. Get Next Line.
-3. Printf.
+1. Libft
+2. Get Next Line
+3. Printf
 
 ## Circle 2.
 
