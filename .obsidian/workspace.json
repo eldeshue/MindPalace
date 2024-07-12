@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "57fb454ec21355dc",
+        "id": "48a5005c0117c873",
         "type": "tabs",
         "children": [
           {
-            "id": "5498af9c7b50b0b0",
+            "id": "0d78ae53bd42a53e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md"
+              }
             }
           }
         ]
@@ -138,8 +146,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3b553df576bcde23",
+  "active": "0d78ae53bd42a53e",
   "lastOpenFiles": [
+    "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
     "Subjective Memory/Speach",
     "Subjective Memory/Index of Subjective Memory..md",
     "Subjective Memory",
@@ -161,7 +170,6 @@
     "Objective Memory/Computer Science/Algorithm/ProblemSolving",
     "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md",
     "Objective Memory/Computer Science/Projects",
-    "Objective Memory/Computer Science/Programming Language",
     "Objective Memory/Index of Objective Memory.md",
     "Index of Mind Palace..md",
     "test 2.md",
