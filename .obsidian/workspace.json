@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subjective Memory/Speach/오픈소스 기반의 cloud native 전략 및 openMSA방법론.md",
+                "file": "Subjective Memory/Speach/대기업SI 먹어보기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Subjective Memory/Speach/오픈소스 기반의 cloud native 전략 및 openMSA방법론.md",
+                "file": "Subjective Memory/Speach/대기업SI 먹어보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Subjective Memory/Speach/오픈소스 기반의 cloud native 전략 및 openMSA방법론.md",
+                "file": "Subjective Memory/Speach/대기업SI 먹어보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Subjective Memory/Speach/오픈소스 기반의 cloud native 전략 및 openMSA방법론.md"
+                "file": "Subjective Memory/Speach/대기업SI 먹어보기.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   "active": "bd6ddbcb96418689",
   "lastOpenFiles": [
     "Subjective Memory/Speach/오픈소스 기반의 cloud native 전략 및 openMSA방법론.md",
+    "Subjective Memory/Speach/대기업SI 먹어보기.md",
     "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
     "Subjective Memory/Speach",
     "Subjective Memory/Index of Subjective Memory..md",
