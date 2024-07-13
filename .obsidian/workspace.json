@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "48a5005c0117c873",
+        "id": "6f6079449f1b09b9",
         "type": "tabs",
         "children": [
           {
-            "id": "0d78ae53bd42a53e",
+            "id": "bd6ddbcb96418689",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,7 +138,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0d78ae53bd42a53e",
+  "active": "bd6ddbcb96418689",
   "lastOpenFiles": [
     "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
     "Subjective Memory/Speach",
