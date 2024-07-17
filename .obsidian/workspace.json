@@ -11,8 +11,12 @@
             "id": "fcc66d9857c098a2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "etc/Template/알고리즘 이론.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "etc/Template/알고리즘 이론.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "etc/Template/알고리즘 이론.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "etc/Template/알고리즘 이론.md"
+              }
             }
           }
         ]
@@ -138,9 +146,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3b553df576bcde23",
+  "active": "fcc66d9857c098a2",
   "lastOpenFiles": [
-    "AttatchedFile",
+    "etc/Template/문제풀이.md",
+    "etc/Template/알고리즘 이론.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Binary Search.md",
+    "etc",
+    "etc/Template",
+    "etc/AttatchedFile",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
     "Subjective Memory/Speach/스스로를 어필하는 방법.md",
     "Subjective Memory/Speach/최신LLM구조.md",
@@ -163,10 +176,7 @@
     "Objective Memory/Computer Science/OS/Index of Operating System..md",
     "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
     "Objective Memory/Computer Science/Computer Structure/Index of Computer Structure.md",
-    "Objective Memory/Computer Science/Algorithm/Theory",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving",
     "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md",
-    "Objective Memory/Computer Science/Projects",
     "Objective Memory/Index of Objective Memory.md",
     "Index of Mind Palace..md",
     "test 2.md",
