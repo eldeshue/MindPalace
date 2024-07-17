@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8348509eeb98049e",
+        "id": "f1f3c7ccecdf9562",
         "type": "tabs",
         "children": [
           {
-            "id": "fcc66d9857c098a2",
+            "id": "bd6fdd11051a5b7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "etc/Template/알고리즘 이론.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "etc/Template/알고리즘 이론.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "etc/Template/알고리즘 이론.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "etc/Template/알고리즘 이론.md"
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,11 +146,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "fcc66d9857c098a2",
+  "active": "bd6fdd11051a5b7d",
   "lastOpenFiles": [
+    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Parametric Search.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Sorting/Sorting.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Searching",
+    "Objective Memory/Computer Science/Algorithm/Theory/Sorting",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure",
     "etc/Template/문제풀이.md",
     "etc/Template/알고리즘 이론.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Binary Search.md",
     "etc",
     "etc/Template",
     "etc/AttatchedFile",
@@ -167,12 +173,8 @@
     "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
     "Objective Memory/Computer Science/Programming Language/C++/Index of C++.md",
     "Objective Memory/Computer Science/Programming Language/C/Index of C.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ",
-    "Objective Memory/Computer Science/Projects/42",
-    "Objective Memory/Computer Science/Programming Language/C++",
-    "Objective Memory/Computer Science/Programming Language/C",
     "Objective Memory/Computer Science/OS/Index of Operating System..md",
     "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
     "Objective Memory/Computer Science/Computer Structure/Index of Computer Structure.md",
