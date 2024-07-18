@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "af87dd86231ca1ef",
+        "id": "f1f3c7ccecdf9562",
         "type": "tabs",
         "children": [
           {
-            "id": "5269b37c1c3016f2",
+            "id": "bd6fdd11051a5b7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -129,12 +129,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,18 +146,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5269b37c1c3016f2",
+  "active": "bd6fdd11051a5b7d",
   "lastOpenFiles": [
     "Objective Memory/Computer Science/Algorithm/Theory/Searching/Parametric Search.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Sorting/Sorting.md",
-    "Index of Mind Palace..md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Searching",
+    "Objective Memory/Computer Science/Algorithm/Theory/Sorting",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure",
     "etc/Template/문제풀이.md",
     "etc/Template/알고리즘 이론.md",
-    "etc/Template",
     "etc",
-    "Objective Memory/Computer Science/Algorithm/Theory/Sorting",
-    "Objective Memory/Computer Science/Algorithm/Theory/Searching",
+    "etc/Template",
+    "etc/AttatchedFile",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
     "Subjective Memory/Speach/스스로를 어필하는 방법.md",
     "Subjective Memory/Speach/최신LLM구조.md",
@@ -171,16 +173,14 @@
     "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
     "Objective Memory/Computer Science/Programming Language/C++/Index of C++.md",
     "Objective Memory/Computer Science/Programming Language/C/Index of C.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ",
-    "Objective Memory/Computer Science/Projects/42",
-    "Objective Memory/Computer Science/Programming Language/C++",
     "Objective Memory/Computer Science/OS/Index of Operating System..md",
     "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
     "Objective Memory/Computer Science/Computer Structure/Index of Computer Structure.md",
     "Objective Memory/Mechanical Engineering/Index of Mechanical Engineering.md",
     "Objective Memory/Index of Objective Memory.md",
+    "Index of Mind Palace..md",
     "test 2.md",
     "Test Files.md"
   ]
