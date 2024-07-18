@@ -86,9 +86,12 @@ ForwardIt upper_bound(ForwardIt first, ForwardIt last, const T& value,
 lower_bound는 
 # Analysis
 
-## Time Complexity
+## Time Complexity - O(k log n)
 
-## Spatial Complexity
+이분탐색의 응용이므로, 기본적으로 이진탐색의 비용을 따라가므로 O(log n)이다. 다만, isOk함수, 즉 조건을 판별하는 과정에서 발생하는 비용 O(k)를 고려하면 O(k log n)이라 할 수 있다.
+## Spatial Complexity - O(1)
+
+마찬가지로, 이분탐색의 비용을 따라가므로 O(1)이다.
 
 # Summary
 
