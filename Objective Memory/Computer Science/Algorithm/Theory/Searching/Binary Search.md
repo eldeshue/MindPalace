@@ -53,7 +53,7 @@ template <class ForwardIt, class T, class Compare>
 bool binary_search(ForwardIt first, ForwardIt last, const T& value, Compare comp);
 ```
 
-- 탐색 범위 : 정방향 순회 Iterator, [ first, last  )
+- 탐색 범위 : 정방향 순회 Iterator, \[ first, last  )
 - 탐색 대상 : value
 - 비교 기준 : 함수객체, comparator. range를 좁히기 위해 비교대상(elem)과 탐색대상(value)를 비교함. 비교 결과가 false이면, 즉 element < value가 왼쪽에서 참을, 오른 쪽에서 거짓을 반환해야 함. 즉 elem이 **오름차순**으로 정렬되어야 함. 
 

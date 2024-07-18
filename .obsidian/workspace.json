@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "189138ccf560d12d",
+        "id": "7fe3c095a68f0028",
         "type": "tabs",
         "children": [
           {
-            "id": "4b4fdc7eafeba2bc",
+            "id": "874ee6b053e7056e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subjective Memory/Speach/실리콘밸리 생태계와 세계화.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Searching/Parametric Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Subjective Memory/Speach/실리콘밸리 생태계와 세계화.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Searching/Parametric Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Subjective Memory/Speach/실리콘밸리 생태계와 세계화.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Searching/Parametric Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Subjective Memory/Speach/실리콘밸리 생태계와 세계화.md"
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Searching/Parametric Search.md"
               }
             }
           }
@@ -147,11 +147,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4b4fdc7eafeba2bc",
+  "active": "874ee6b053e7056e",
   "lastOpenFiles": [
-    "Subjective Memory/Speach/실리콘밸리 생태계와 세계화.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Parametric Search.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Parametric Search.md",
+    "Subjective Memory/Speach/실리콘밸리 생태계와 세계화.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Sorting/Sorting.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Searching",
