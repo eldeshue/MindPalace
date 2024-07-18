@@ -1,20 +1,22 @@
+# Welcome to the Mind Palace.
 
-# - Overview.
-	나의 제 2의 뇌가 되어 앞으로의 여정을 기록할 예정.
-	지금까지의 구상으로는 2종의 대분류를 가질 예정임.
-	
-	1. Objective Memory.
-		* 알고리즘을 비롯한 프로그래밍 언어 및 그래픽스, 기계공학 이론 정리
-		* 알고리즘 문제 풀이 -> 백준, leet code
-		* 42Seoul project.
-		* Portfolio
-		
-		-> 추후 별도의 리포와 동기화시켜서 Digital Garden으로 Gihub Page에 hosting예정. 
-		
-	2. Subjective Memory.
-		* 일기
-		* 아이디어 정리
-		* 소설 작품을 위한 구상 모음
-		* 감상한 작품에 대한 리뷰 모음
+나의 제 2의 뇌. text로 저장한 나 자신. 
 
-		-> 개인적인 사상을 담은 부분이므로, 별도의 출판을 계획하지 않으면 미공개.
+---
+## Objective Memory
+
+객관적인 지식. 나의 지적 허영심. 나의 세계를 정의하는 정보의 방.
+[[Index of Objective Memory]]
+
+
+---
+## Subjective Memory
+
+주관적인 경험. 나라는 필터를 거친 결과 변화한 정보의 방.
+[[Index of Subjective Memory.]]
+
+---
+## Projects
+포트폴리오를 위한 프로젝트의 방. 
+
+
