@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6cb7dc9e31362677",
+        "id": "70504b7b014c540e",
         "type": "tabs",
         "children": [
           {
-            "id": "51ffde41ff166645",
+            "id": "204b32a7acd1882f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Objective Memory/Computer Science/Graphics/Blur.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "718cc95301c6a9b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/42/miniRT/About MiniRT.md",
                 "mode": "source",
                 "source": false
               }
@@ -159,12 +147,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "51ffde41ff166645",
+  "active": "204b32a7acd1882f",
   "lastOpenFiles": [
     "Projects/42/miniRT/About MiniRT.md",
-    "Projects/42/miniRT",
-    "Objective Memory/Computer Science/Graphics/Blur.md",
     "Projects/42/Index of 42 Projects..md",
+    "Objective Memory/Computer Science/Graphics/Blur.md",
+    "Projects/42/miniRT",
     "Projects/42",
     "Projects",
     "Objective Memory/Computer Science/Programming Language/Index of Programming Language.md",
