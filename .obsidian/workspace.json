@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0b4fcafec58ae44e",
+        "id": "8ff8d020a36ee34b",
         "type": "tabs",
         "children": [
           {
-            "id": "dcf548d46a08ceae",
+            "id": "7f7b9d2f46800f9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md"
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md"
               }
             }
           }
@@ -147,10 +147,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dcf548d46a08ceae",
+  "active": "7f7b9d2f46800f9a",
   "lastOpenFiles": [
-    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/무제 파일.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/queue.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
     "Objective Memory/Computer Science/Algorithm/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Graph",
     "Objective Memory/Computer Science/Graphics/Blur.md",
@@ -180,10 +184,6 @@
     "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
     "Subjective Memory/Index of Subjective Memory..md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
-    "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md",
-    "Objective Memory/Computer Science/Programming Language/C++/Index of C++.md",
-    "Objective Memory/Computer Science/Programming Language/C/Index of C.md",
-    "Objective Memory/Computer Science/OS/Index of Operating System..md",
-    "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md"
+    "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md"
   ]
 }
