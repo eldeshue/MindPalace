@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8ff8d020a36ee34b",
+        "id": "d91665511b65466b",
         "type": "tabs",
         "children": [
           {
-            "id": "7f7b9d2f46800f9a",
+            "id": "24b7b6288a2930b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md"
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md"
               }
             }
           }
@@ -147,18 +147,20 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7f7b9d2f46800f9a",
+  "active": "24b7b6288a2930b1",
   "lastOpenFiles": [
-    "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
     "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md",
+    "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/무제 파일.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/queue.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure",
     "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
     "Objective Memory/Computer Science/Algorithm/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Graph",
-    "Objective Memory/Computer Science/Graphics/Blur.md",
     "Projects/42/miniRT/About MiniRT.md",
     "Projects/42/Index of 42 Projects..md",
     "Projects/42/miniRT",
@@ -171,19 +173,17 @@
     "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Searching",
     "Objective Memory/Computer Science/Algorithm/Theory/Sorting",
-    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure",
     "etc/Template/문제풀이.md",
     "etc/Template/알고리즘 이론.md",
     "etc",
     "etc/Template",
     "etc/AttatchedFile",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
     "Subjective Memory/Speach/스스로를 어필하는 방법.md",
     "Subjective Memory/Speach/최신LLM구조.md",
     "Subjective Memory/Speach/대기업SI 먹어보기.md",
     "Subjective Memory/Speach/오픈소스 기반의 cloud native 전략 및 openMSA방법론.md",
     "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
     "Subjective Memory/Index of Subjective Memory..md",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md"
+    "Objective Memory/Computer Science/Projects/42/Index of 42 Projects..md"
   ]
 }
