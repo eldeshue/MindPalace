@@ -6,9 +6,11 @@ tags:
 # Concept
 - FIFO : First In First Out, 자료구조에 삽입한 순서 대로 제거할 수 있음.
 - Linearity : 데이터를 선형으로 저장함. 순차 순회. 양쪽에 말단을 가짐.
-- Double End : 자료구조의 양 단말로 접근이 가능함.
+- Double End : 자료구조의 양 단말로 접근이 가능함. 한쪽에는 추가를, 반대쪽에서 삭제를 수행
 - Constancy : 데이터의 추가, 삭제, 접근 모두 상수 시간에 가능함.
 # Implementation
+## Visualize
+// 여기에 이미지 삽입
 
 ## Code
 
@@ -42,3 +44,4 @@ c++에서 queue는 adaptive-container로, 실제 내부 구현은 다른 컨테�
 
 단순히 저장하는 자료구조이므로, 원소의 개수에 비례하게 메모리를 점유함.
 # Summary
+
