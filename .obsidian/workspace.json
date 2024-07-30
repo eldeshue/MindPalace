@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "760985260abc3838",
+        "id": "a127b8efd625e474",
         "type": "tabs",
         "children": [
           {
-            "id": "d427367a76695516",
+            "id": "8dfe0e5ac31e58cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md",
+                "file": "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md",
+                "file": "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md",
+                "file": "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md"
+                "file": "Objective Memory/Computer Science/Graphics/Ray Tracing.md"
               }
             }
           }
@@ -147,11 +147,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d427367a76695516",
+  "active": "8dfe0e5ac31e58cc",
   "lastOpenFiles": [
+    "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/queue.md",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
     "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md",
@@ -183,7 +184,6 @@
     "Subjective Memory/Speach/최신LLM구조.md",
     "Subjective Memory/Speach/대기업SI 먹어보기.md",
     "Subjective Memory/Speach/오픈소스 기반의 cloud native 전략 및 openMSA방법론.md",
-    "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md",
-    "Subjective Memory/Index of Subjective Memory..md"
+    "Subjective Memory/Speach/슬기로운 스타트업 커리어 알아보기.md"
   ]
 }
