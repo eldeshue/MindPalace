@@ -4,11 +4,13 @@ tags:
 ---
 # Prerequisite Algorithm
 # Concept
-- 큰 문자열 속에서 작은 문자열(패턴)을 찾아내는, 패턴 매칭 알고리즘.
+- 큰 문자열,text 속에서 작은 문자열,pattern을 찾아내는, pattern-matching 알고리즘.
 - Naive 알고리즘에서 활용하지 않던, **이미 탐색한 정보를 재활용**한다.
-- 알고리즘의 고안자인 세 명 Knuth, Moris, Pratt의 이름을 따서 KMP
+- 알고리즘의 발명자 Knuth, Moris, Pratt의 이름을 따서 KMP라 부른다.
 # Implementation
 
+## Visualize
+// 여기에 이미지 삽입
 ## Code
 
 ``` C++
@@ -48,7 +50,7 @@ public:
 			pos++;
 			cnd++;
 		}
-		t[pos] = cnd; // ???
+		t[pos] = cnd; // pos == w.size()
 	}
 	// search function
 	// search, positions that "needle" matched int "heystack"
@@ -83,7 +85,9 @@ public:
 	}
 };
 ```
-
+- ``t`` : prefix jump table, failure function의 결과물, 패턴 중 이미 찾아낸 prefix에 대한 부분을 skip.
+- ``s`` : heystack의 string_view. pattern을 찾아내야 하는 원본 text. 
+- ``w`` : needle의 string_view. text 안에서 찾아내야 하는 pattern.
 ## About Code
 
 KMP 알고리즘은 두 개의 함수로 구성된다. 
@@ -116,9 +120,9 @@ KMP(std::string_view heystack, std::string_view needle) : s(heystack), w(needle)
 	t[pos] = cnd; // ???
 }
 ```
-failure function은 탐색의 대상이 되는 패턴 문자열에 대한 전처리를 수행하는 함수이다. 실행의 결과로 테이블``t``을 초기화 하는데, 이 테이블은 비교에서 실패할 경우 다시 비교를 시작할 위치를 저장한다. 이 테이블을 활용하여, 탐색 과정에서 발생하는 두 문자열 ``w``와 ``s`` 사이의 비교에서 중복 비교를 제거할 수 있다.
+kmp를 수행하기 위해서는 먼저 failure function을 수행하여 table ``t``를 초기화해야 한다.  이 테이블은 비교에서 mismatch가 발생할 경우 다시 비교를 시작할 위치를 저장한다. 이 테이블을 활용하여, 탐색 과정에서 발생하는 두 문자열 ``w``와 ``s`` 사이의 비교에서 중복 비교를 제거할 수 있다.
 
-테이블을 초기화 하는 과정은 패턴 문자열 ``w``에 대해서 **자기 자신 안에서 자기 자신을 찾는 과정**이다. 보다 구체적으로는, **w에 대해서 w자신과 비교를 수행**하여 **w안에서 자신의 prefix**를 찾는다. prefix를 찾으면, 그 prefix가 끝나는 위치를 테이블에 기록한다. 이를 통해서 mismatch가 발생했을 때, 해당 prefix에 대한 탐색은 skip할 수 있게 된다.
+테이블을 초기화 하는 과정은 패턴 ``w``에 대해서 **자기 자신 안에서 자기 자신을 찾는 과정**이다.  **w에 대해서 w자신과 비교를 수행**하여 **w안에서 자신의 prefix를 찾는다.** prefix를 찾으면, 그 prefix가 끝나는 위치를 테이블에 기록한다. 이를 통해서 탐색 중 ``s``와 ``w``사이의 mismatch가 발생했을 때, w의 비교 위치(인덱스)를 t에 저장된 값으로 바꾸는 것으로, 공통으로 갖는 prefix에 대한 탐색은 skip한다.
 
 ### Search Function
 ```C++
@@ -153,11 +157,14 @@ std::vector<int> operator()()
 	return result;
 }
 ```
-앞서 획득한 ``t``를 이용하여 ``s``속에서 ``w``를 찾는다. Naive한 패턴 매칭 알고리즘에서는 s의 매 문자마다 w를 비교했다. 비교 중 mismatching이 발생하면 다시 w의 처음부터 비교를 수행했다. KMP는 ``t``테이블을 이용하여 다시 처음부터 비교하는 것이 아닌, 잠재적으로 일치하는 부분부터 다시 비교를 수행한다.
+앞서 획득한 ``t``를 이용하여 ``s``속에서 ``w``를 찾는다. Naive한 패턴 매칭 알고리즘에서는 s의 매 문자마다 w를 비교했다. 비교 중 mismatching이 발생하면 다시 w의 처음부터 비교를 수행했다. KMP는 ``t``테이블을 이용하여 다시 처음부터 비교하는 것이 아닌, **잠재적으로 일치하는 부분 이후부터 비교**를 수행한다.
 # Analysis
-패턴 문자열의 길이를 N, 원본 문자열의 길이를 M.
-## Time Complexity - O()
+패턴의 길이를 N, 텍스트의 길이를 M.
+## Time Complexity
 
+- Failure Function : O(N)
+- Search Function : O(N + M)
+	-> naive 알고리즘의 복잡도가 O(N * M)이었음을 감안하면, 대단한 발전.
 ## Spatial Complexity - O(N)
 mismatch 발생 시 참조할 테이블 ``t``를 위해서 공간이 필요함.
 # Summary
