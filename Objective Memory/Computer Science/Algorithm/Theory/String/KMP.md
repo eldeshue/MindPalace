@@ -122,8 +122,11 @@ KMP(std::string_view heystack, std::string_view needle) : s(heystack), w(needle)
 ```
 kmp를 수행하기 위해서는 먼저 failure function을 수행하여 table ``t``를 초기화해야 한다.  이 테이블은 비교에서 mismatch가 발생할 경우 다시 비교를 시작할 위치를 저장한다. 이 테이블을 활용하여, 탐색 과정에서 발생하는 두 문자열 ``w``와 ``s`` 사이의 비교에서 중복 비교를 제거할 수 있다.
 
-테이블을 초기화 하는 과정은 패턴 ``w``에 대해서 **자기 자신 안에서 자기 자신을 찾는 과정**이다.  **w에 대해서 w자신과 비교를 수행**하여 **w안에서 자신의 prefix를 찾는다.** prefix를 찾으면, 그 prefix가 끝나는 위치를 테이블에 기록한다. 이를 통해서 탐색 중 ``s``와 ``w``사이의 mismatch가 발생했을 때, w의 비교 위치(인덱스)를 t에 저장된 값으로 바꾸는 것으로, 공통으로 갖는 prefix에 대한 탐색은 skip한다.
+테이블을 초기화 하는 과정은 패턴  **w에 대해서 w자신과 비교를 수행**하여 **w안에서 자신의 prefix를 찾는다.** prefix를 찾으면, 그 prefix가 끝나는 위치를 테이블에 기록한다. 이를 통해서 탐색 중 ``s``와 ``w``사이의 mismatch가 발생했을 때, w의 비교 위치(인덱스)를 t에 저장된 값으로 바꾸는 것으로, 공통으로 갖는 prefix에 대한 탐색은 skip한다.
 
+>> **Failure Function은 자기 자신 안에서 스스로를 찾는 과정이다.**
+
+---
 ### Search Function
 ```C++
 // search function
@@ -158,6 +161,10 @@ std::vector<int> operator()()
 }
 ```
 앞서 획득한 ``t``를 이용하여 ``s``속에서 ``w``를 찾는다. Naive한 패턴 매칭 알고리즘에서는 s의 매 문자마다 w를 비교했다. 비교 중 mismatching이 발생하면 다시 w의 처음부터 비교를 수행했다. KMP는 ``t``테이블을 이용하여 다시 처음부터 비교하는 것이 아닌, **잠재적으로 일치하는 부분 이후부터 비교**를 수행한다.
+
+>> **Search Function은 세상 속에서 스스로를 찾는 과정이다.**
+
+---
 # Analysis
 패턴의 길이를 N, 텍스트의 길이를 M.
 ## Time Complexity
