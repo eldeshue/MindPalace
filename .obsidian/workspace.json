@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "96b7e1d2de92e653",
+        "id": "b2a67efca5e28e71",
         "type": "tabs",
         "children": [
           {
-            "id": "a4f654a44ae3b5a6",
+            "id": "a5e4e4b3bfd04ed0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,10 +139,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a4f654a44ae3b5a6",
+  "active": "a5e4e4b3bfd04ed0",
   "lastOpenFiles": [
-    "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Optimization/DP.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Kadane's Algorithm.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Two-Pointer.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Array.md",
     "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Optimization",
+    "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
     "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
     "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md",
     "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
@@ -179,11 +176,6 @@
     "Objective Memory/Computer Science/Algorithm/Theory/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Searching",
     "Objective Memory/Computer Science/Algorithm/Theory/Sorting",
-    "etc/Template/문제풀이.md",
-    "etc/Template/알고리즘 이론.md",
-    "etc",
-    "etc/Template",
-    "Subjective Memory/Speach/스스로를 어필하는 방법.md",
-    "Subjective Memory/Speach/최신LLM구조.md"
+    "etc"
   ]
 }
