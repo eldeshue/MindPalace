@@ -11,8 +11,12 @@
             "id": "a5e4e4b3bfd04ed0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md"
+              }
             }
           }
         ],
