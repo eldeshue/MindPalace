@@ -11,8 +11,12 @@
             "id": "f2e694edd5d135f6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md"
+              }
             }
           }
         ],
@@ -141,6 +149,7 @@
   },
   "active": "f2e694edd5d135f6",
   "lastOpenFiles": [
+    "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
     "Objective Memory/Computer Science/Algorithm/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/queue.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
@@ -148,7 +157,6 @@
     "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md",
     "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
     "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
     "Objective Memory/Computer Science/Algorithm/Theory/String",
     "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Two-Pointer.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Kadane's Algorithm.md",
