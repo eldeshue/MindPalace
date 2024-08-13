@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ff7ff6e42214e6d6",
+        "id": "a08d349d3f15c576",
         "type": "tabs",
         "children": [
           {
-            "id": "905d14d1abfd9187",
+            "id": "3716b76693cf58c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/1305. 광고.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/1305. 광고.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/1305. 광고.md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/1305. 광고.md"
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md"
               }
             }
           }
@@ -147,16 +147,22 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "905d14d1abfd9187",
+  "active": "3716b76693cf58c9",
   "lastOpenFiles": [
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/queue.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/deque.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
+    "deque.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Array.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/3015. 오아시스 재결합.md",
+    "etc/Template/알고리즘 이론.md",
+    "etc/Template/문제풀이.md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/1305. 광고.md",
     "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Optimization/DP.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Kadane's Algorithm.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Two-Pointer.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Array.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Optimization",
     "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
     "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
@@ -173,15 +179,9 @@
     "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
     "Objective Memory/Computer Science/Algorithm/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Graph",
-    "Projects/42/miniRT/About MiniRT.md",
-    "Projects/42/Index of 42 Projects..md",
     "Projects/42/miniRT",
     "Projects/42",
     "Projects",
-    "Objective Memory/Computer Science/Programming Language/Index of Programming Language.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Parametric Search.md",
-    "Subjective Memory/Speach/실리콘밸리 생태계와 세계화.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Sorting/Sorting.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Searching",
     "Objective Memory/Computer Science/Algorithm/Theory/Sorting",
     "etc"

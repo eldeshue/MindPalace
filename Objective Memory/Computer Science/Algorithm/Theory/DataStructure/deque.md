@@ -2,23 +2,19 @@
 Date: 
 tags:
 ---
-# Problem
-
-# Solution
-
-## Algorithm
-
-## Approach
+# Prerequisite Algorithm
+# Concept
 
 # Implementation
 
 ## Code
 
 ``` C++
-
 ```
 
 ## About Code
+
+# Analysis
 
 ## Time Complexity
 
