@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a08d349d3f15c576",
+        "id": "5414ddadb5e7bee9",
         "type": "tabs",
         "children": [
           {
-            "id": "3716b76693cf58c9",
+            "id": "e67b848cdcfccc5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md"
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md"
               }
             }
           }
@@ -147,12 +147,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "3716b76693cf58c9",
+  "active": "e67b848cdcfccc5f",
   "lastOpenFiles": [
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/queue.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/deque.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
     "deque.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Array.md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/3015. 오아시스 재결합.md",
