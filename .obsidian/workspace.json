@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5414ddadb5e7bee9",
+        "id": "3457859e8efe1ee5",
         "type": "tabs",
         "children": [
           {
-            "id": "e67b848cdcfccc5f",
+            "id": "52c074083013d023",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -147,43 +139,43 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e67b848cdcfccc5f",
+  "active": "3b553df576bcde23",
   "lastOpenFiles": [
-    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
-    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/queue.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/deque.md",
-    "deque.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Array.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/3015. 오아시스 재결합.md",
-    "etc/Template/알고리즘 이론.md",
-    "etc/Template/문제풀이.md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/1305. 광고.md",
-    "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Optimization/DP.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Kadane's Algorithm.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Two-Pointer.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Optimization",
-    "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
-    "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
-    "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md",
     "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/String",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/1105. Filling Bookcase Shelves.md",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure",
-    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
     "Objective Memory/Computer Science/Algorithm/Index of Algorithms.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/queue.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md",
+    "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
+    "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/String",
+    "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Two-Pointer.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Kadane's Algorithm.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Optimization/DP.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Optimization",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Array.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/1105. Filling Bookcase Shelves.md",
+    "link.md",
+    "etc/Template/문제풀이.md",
+    "etc/Template/알고리즘 이론.md",
+    "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/무제 파일.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
+    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Graph",
+    "Objective Memory/Computer Science/Graphics/Blur.md",
+    "Projects/42/miniRT/About MiniRT.md",
     "Projects/42/miniRT",
     "Projects/42",
     "Projects",
     "Objective Memory/Computer Science/Algorithm/Theory/Searching",
     "Objective Memory/Computer Science/Algorithm/Theory/Sorting",
+    "Objective Memory/Computer Science/Algorithm/Theory/DataStructure",
     "etc"
   ]
 }
