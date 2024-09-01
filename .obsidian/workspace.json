@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "757427b1b23a991a",
+            "id": "5a2d6cf49a29424b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md",
+                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/7682. 틱택토.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec8a2177492d2ec3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/3015. 오아시스 재결합.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md",
+                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/7682. 틱택토.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md",
+                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/7682. 틱택토.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md"
+                "file": "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/7682. 틱택토.md"
               }
             }
           }
@@ -147,16 +159,21 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "757427b1b23a991a",
+  "active": "5a2d6cf49a29424b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "함수형 프로그래밍.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/7682. 틱택토.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/3015. 오아시스 재결합.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/1105. Filling Bookcase Shelves.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
+    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/1305. 광고.md",
     "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md",
+    "conflict-files-obsidian-git.md",
     "Objective Memory/Computer Science/Programming Language/Functional Programming/Composing.md",
     "Objective Memory/Computer Science/Programming Language/Functional Programming/Currying.md",
     "Objective Memory/Computer Science/Programming Language/Functional Programming/Functional Programming.md",
     "Subjective Memory/Speach/게임 개발 - 크래프톤, 강상욱 프로듀서님..md",
     "Objective Memory/Computer Science/Programming Language/Functional Programming",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/1305. 광고.md",
     "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/stack.md",
@@ -164,7 +181,6 @@
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/deque.md",
     "deque.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Array.md",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/3015. 오아시스 재결합.md",
     "etc/Template/알고리즘 이론.md",
     "etc/Template/문제풀이.md",
     "Objective Memory/Computer Science/Graphics/Phong Reflection Model.md",
@@ -173,11 +189,7 @@
     "Objective Memory/Computer Science/Algorithm/Theory/Optimization/Two-Pointer.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Optimization",
     "Objective Memory/Computer Science/Graphics/Ray Tracing.md",
-    "Objective Memory/Computer Science/Graphics/Index of Computer Graphics.md",
-    "Objective Memory/Computer Science/Graphics/Kernel from Image Processing.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Graph/GraphSearch.md",
     "Objective Memory/Computer Science/Algorithm/Theory/String",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure",
     "Objective Memory/Computer Science/Algorithm/Theory/Graph",
     "Projects/42/miniRT",
