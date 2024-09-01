@@ -11,8 +11,12 @@
             "id": "757427b1b23a991a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md"
+              }
             }
           }
         ],
@@ -141,6 +149,11 @@
   },
   "active": "757427b1b23a991a",
   "lastOpenFiles": [
+    "Objective Memory/Computer Science/Programming Language/Functional Programming/Currying.md",
+    "Objective Memory/Computer Science/Programming Language/Functional Programming/Functional Programming.md",
+    "Objective Memory/Computer Science/Programming Language/Functional Programming/Composing.md",
+    "Objective Memory/Computer Science/Programming Language/Functional Programming/Partial Application.md",
+    "Objective Memory/Computer Science/Programming Language/Functional Programming",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/1305. 광고.md",
     "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/Monoton Structure..md",
@@ -165,17 +178,12 @@
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/2045. Second Minimum Time to Reach Destination..md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/1105. Filling Bookcase Shelves.md",
     "Objective Memory/Computer Science/Algorithm/ProblemSolving/LeetCode/Index of LeetCode Daily..md",
-    "Objective Memory/Computer Science/Algorithm/ProblemSolving/BOJ/Index of BOJ.md",
-    "Objective Memory/Computer Science/Algorithm/Theory/Graph/Graph.md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure",
-    "Objective Memory/Computer Science/Algorithm/Theory/Searching/Binary Search.md",
-    "Objective Memory/Computer Science/Algorithm/Index of Algorithms.md",
     "Objective Memory/Computer Science/Algorithm/Theory/Graph",
     "Projects/42/miniRT",
     "Projects/42",
     "Projects",
     "Objective Memory/Computer Science/Algorithm/Theory/Searching",
-    "Objective Memory/Computer Science/Algorithm/Theory/Sorting",
-    "etc"
+    "Objective Memory/Computer Science/Algorithm/Theory/Sorting"
   ]
 }
