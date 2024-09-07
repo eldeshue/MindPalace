@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3457859e8efe1ee5",
+        "id": "668ece262f467ea5",
         "type": "tabs",
         "children": [
           {
-            "id": "52c074083013d023",
+            "id": "8649246741751e17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subjective Memory/Speach/게임 개발 - 크래프톤, 강상욱 프로듀서님..md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Subjective Memory/Speach/게임 개발 - 크래프톤, 강상욱 프로듀서님..md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Subjective Memory/Speach/게임 개발 - 크래프톤, 강상욱 프로듀서님..md",
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Subjective Memory/Speach/게임 개발 - 크래프톤, 강상욱 프로듀서님..md"
+                "file": "Objective Memory/Computer Science/Algorithm/Theory/String/KMP.md"
               }
             }
           }
@@ -147,7 +147,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "52c074083013d023",
+  "active": "8649246741751e17",
   "lastOpenFiles": [
     "Subjective Memory/Speach/게임 개발 - 크래프톤, 강상욱 프로듀서님..md",
     "Objective Memory/Computer Science/Algorithm/Theory/DataStructure/deque.md",
