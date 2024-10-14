@@ -1,4 +1,5 @@
 {
   "vimMode": true,
-  "attachmentFolderPath": "etc/AttatchedFile"
+  "attachmentFolderPath": "etc/AttatchedFile",
+  "alwaysUpdateLinks": true
 }
