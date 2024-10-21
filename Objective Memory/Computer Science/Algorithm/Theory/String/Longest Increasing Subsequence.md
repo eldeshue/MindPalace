@@ -3,7 +3,7 @@ Date: 2024-10-14
 tags:
 ---
 # Prerequisite Algorithm
-[[Binary Search]]
+[[Binary Search]], [[Array]]
 # Concept
 
 ## Subsequence?
@@ -123,7 +123,7 @@ int getLISLen2(const std::vector<int> &nums)
 
 ``minLastValPerLen[l]``은 길이가 ``l``인 LIS에 대하여, 최소인 마지막 원소를 의미한다. 따라서 이진 탐색으로 ``nums[i]``이상인 첫 번째 ``minLastValPerLen[l]``을 구하면, 곧 ``l``이 ``nums[i]``를 끝으로 하는 LIS의 길이가 된다.
 
-중요한 점은 ``minLastValPerLen``이 항상 증가하는 상태를 유지해야 함에 있는데, 이는 귀류법으로 이해될 수 있다.
+중요한 점은 ``minLastValPerLen``이 항상 증가하는 상태를 유지해야 함에 있는데, 이는 귀류법적인 논리로 이해될 수 있다.
 > > **가정** : ``i < j``에 대하여, ``minLastValPerLen[i] > minLastValPerLen[j]`` 이다.
 > 
 > 길이가 ``i``인 LIS의 마지막 원소가 길이가 ``j``인 LIS의 마지막 값보다 크다.
