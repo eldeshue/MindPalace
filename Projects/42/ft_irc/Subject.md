@@ -70,8 +70,8 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 - bot 기능
 # Allowed Systemcall
 
-- socket, 
-- close, 
+- [socket](Socket.md) 
+- [close](Close.md) 
 - setsockopt, 
 - getsockname, 
 - getprotobyname, 
