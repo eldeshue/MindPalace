@@ -24,7 +24,7 @@ Date: 2024-11-19
 - C언어의 함수 사용 가능
 - 외부 라이브러리 사용 불가능.
 ### MacOs 관련
-write() 사용 관련해서 non-blocking한 사용을 위해서 FD에 fcntl()을 사용할 필요가 있음.
+write() 사용 관련해서 non-blocking한 사용을 위해서 FD에 fcntl()을 사용할 필요가 있음. 오직 이 용도로만 fcntl을 사용해야 함.
 ``` MacOs Only
 fcntl(fd, F_SETFL, O_NONBLOCK);
 ```
@@ -72,10 +72,15 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 
 - [socket](Socket.md) : 소켓 객체를 생성함
 - [close](Close.md) : 소켓 객체를 제거함
-- bind, 
-- connect, 
-- listen, 
-- accept, 
+- bind : 소켓에 주소를 지정
+- connect : 소켓에 통신 대상을 연결함, 주로 클라이언트가 호출함
+- listen : 서버측 소켓에 연결 대기를 설정함
+- accept : 통신 대상과 연결된 소켓을 생성
+- send : 데이터 전송, write로 대체 가능
+- recv : 데이터 수신, read로 대체 가능
+- select : FD들을 모니터링함, 이후 특정 FD에서 데이터가 수신되면 이를 감지함
+- kqueue : select의 개선된 버젼
+
 - setsockopt : 소켓에 옵션을 설정
 - getsockname : 소켓의 세부 정보를 갖는 sockaddr 구조체를 초기화 함. bind 후 사용.
 - getprotobyname : 프로토콜에 대한 정보를 이름으로 획득, 데이터베이스(?)를 순회하면서 탐색
@@ -87,12 +92,9 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 - ntohs : network to host short, short는 포트번호이고 long은 IP어드레스
 - ntohl : network to host long, 보통 호스트는 little endian이고 네트워크는 big endian이므로 변환
 - inet_addr : 문자열 형태의 IP주소를 정수 값으로 변환, unsigned long을 반환
-- inet_ntoa : unsigned long의 
-- send, 
-- recv, 
-- signal,
-- sigaction, 
-- lseek, 
-- fstat, 
-- fcntl, 
-- poll (select, kqueue, epoll)
+- inet_ntoa : unsigned long의 IP주소를 문자열의 형태로 반환
+- signal : signal의 발생에 따른 handler를 등록하는 함수. 시그널을 이용하여 비순차적 실행
+- sigaction : signal함수와 유사하지만, 보다 세세한 설정이 가능함.
+- lseek : fd 내부를 가리키는 커서를 이동, read 및 write 위치를 조정함
+- fstat : 전달한 fd의 status에 대한 구조체를 반환함
+- fcntl : 파일과 관련된 설정을 변경하는 함수, 비동기 IO를 위해서만 사용 가능함.
