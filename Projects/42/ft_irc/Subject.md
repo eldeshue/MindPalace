@@ -70,24 +70,24 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 - bot 기능
 # Allowed Systemcall
 
-- [socket](Socket.md) 
-- [close](Close.md) 
-- setsockopt, 
-- getsockname, 
-- getprotobyname, 
-- gethostbyname,
-- getaddrinfo, 
-- freeaddrinfo, 
+- [socket](Socket.md) : 소켓 객체를 생성함
+- [close](Close.md) : 소켓 객체를 제거함
 - bind, 
 - connect, 
 - listen, 
 - accept, 
-- htons, 
-- htonl, 
-- ntohs, 
-- ntohl, 
-- inet_addr, 
-- inet_ntoa,
+- setsockopt : 소켓에 옵션을 설정
+- getsockname : 소켓의 세부 정보를 갖는 sockaddr 구조체를 초기화 함. bind 후 사용.
+- getprotobyname : 프로토콜에 대한 정보를 이름으로 획득, 데이터베이스(?)를 순회하면서 탐색
+- gethostbyname : 도메인 이름(domain name)으로 해당 호스트에 대한 정보를 획득 
+- getaddrinfo : addrinfo구조체의 domain address를 바탕으로 IP address를 받아오는 함수
+- freeaddrinfo : addrinfo 구조체를 free
+- htons : host to network short, 호스트의 short 데이터의 바이트 오더를 네트워크의 오더로 변환
+- htonl : host to network long, 호스트의 long 데이터의 바이트 오더를 네트워크의 오더로 변환
+- ntohs : network to host short, short는 포트번호이고 long은 IP어드레스
+- ntohl : network to host long, 보통 호스트는 little endian이고 네트워크는 big endian이므로 변환
+- inet_addr : 문자열 형태의 IP주소를 정수 값으로 변환, unsigned long을 반환
+- inet_ntoa : unsigned long의 
 - send, 
 - recv, 
 - signal,
