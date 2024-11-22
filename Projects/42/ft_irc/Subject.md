@@ -9,9 +9,13 @@ Date: 2024-11-19
 
 해당 과제에서는 상용 IRC 클라이언트와 통신이 가능한 **IRC 서버**를 구현해야 함.
 
+참고 : https://modern.ircdocs.horse/
+
 # Requirements
 
 구현 세부사항은 다음과 같음.
+
+구현 내용 참고 : https://github.com/solanum-ircd/solanum
 
 ## 안정성
 
