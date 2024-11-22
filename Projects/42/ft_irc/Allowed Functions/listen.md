@@ -19,9 +19,11 @@ int listen(int sockfd, int backlog);
 ## Parameters
 
 ### 1. sockfd
-SOCK_STREAM, SOCK_S
+SOCK_STREAM, SOCK_SEQPACKET의 옵션으로 생성된 소켓의 fd. 
 
+## 2. backlog
+connection 대기열의 최대 크기. 지정한 값보다 많은 연결 요청이 들어오면, 에러를 발생시킴.
 
 ## Return values
 
-
+성공하면 0, 실패하면 -1.

@@ -79,7 +79,7 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 - [socket](socket.md) : 소켓 객체를 생성함
 - [close](close.md) : 소켓 객체를 제거함
 - [bind](bind.md) : 소켓에 주소를 지정
-- listen : 서버측 소켓에 연결 대기를 설정함, listen only 설정
+- [listen](listen.md) : 서버 측 소켓에 연결 대기를 설정함, listen only 설정
 - accept : 통신 대상과 연결된 소켓을 생성, blocking 함수, select 등으로 non-blocking 하게 동작
 - connect : 소켓에 통신 대상을 연결함, 클라이언트가 호출함. bind를 포함함.
 - send : 데이터 전송, write로 대체 가능
