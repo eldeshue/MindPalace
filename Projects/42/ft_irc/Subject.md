@@ -74,31 +74,42 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 - bot 기능
 # Allowed Systemcall
 
-- [socket](Socket.md) : 소켓 객체를 생성함
-- [close](Close.md) : 소켓 객체를 제거함
-- bind : 소켓에 주소를 지정
-- connect : 소켓에 통신 대상을 연결함, 주로 클라이언트가 호출함
-- listen : 서버측 소켓에 연결 대기를 설정함
-- accept : 통신 대상과 연결된 소켓을 생성
+## Socket 관련
+소켓을 활용한 네트워크 프로그래밍에 핵심적인 역할을 하는 함수들
+- [socket](socket.md) : 소켓 객체를 생성함
+- [close](close.md) : 소켓 객체를 제거함
+- [bind](bind.md) : 소켓에 주소를 지정
+- listen : 서버측 소켓에 연결 대기를 설정함, listen only 설정
+- accept : 통신 대상과 연결된 소켓을 생성, blocking 함수, select 등으로 non-blocking 하게 동작
+- connect : 소켓에 통신 대상을 연결함, 클라이언트가 호출함. bind를 포함함.
 - send : 데이터 전송, write로 대체 가능
 - recv : 데이터 수신, read로 대체 가능
-- select : FD들을 모니터링함, 이후 특정 FD에서 데이터가 수신되면 이를 감지함
+- select : FD들을 모니터링함, 이후 특정 FD가 가리키는 소켓에 데이터가 수신되면 이를 감지함
 - kqueue : select의 개선된 버젼
-
+## sockaddr 구조체 관련
 - setsockopt : 소켓에 옵션을 설정
 - getsockname : 소켓의 세부 정보를 갖는 sockaddr 구조체를 초기화 함. bind 후 사용.
 - getprotobyname : 프로토콜에 대한 정보를 이름으로 획득, 데이터베이스(?)를 순회하면서 탐색
 - gethostbyname : 도메인 이름(domain name)으로 해당 호스트에 대한 정보를 획득 
 - getaddrinfo : addrinfo구조체의 domain address를 바탕으로 IP address를 받아오는 함수
 - freeaddrinfo : addrinfo 구조체를 free
+
+## 네트워크 데이터 변환 관련 
+네트워크 관련 데이터들의 변환을 위한 함수. endian 변환, IP 변환, 등등
 - htons : host to network short, 호스트의 short 데이터의 바이트 오더를 네트워크의 오더로 변환
 - htonl : host to network long, 호스트의 long 데이터의 바이트 오더를 네트워크의 오더로 변환
 - ntohs : network to host short, short는 포트번호이고 long은 IP어드레스
 - ntohl : network to host long, 보통 호스트는 little endian이고 네트워크는 big endian이므로 변환
 - inet_addr : 문자열 형태의 IP주소를 정수 값으로 변환, unsigned long을 반환
 - inet_ntoa : unsigned long의 IP주소를 문자열의 형태로 반환
+
+## 시그널 관련
+우리가 작성할 IRC 서버는 무한루프, 따라서 interrupt로 종료해야 함. 프로세스 종료 시 자원 반환을 위해서 핸들러 등록이 필요함.
 - signal : signal의 발생에 따른 handler를 등록하는 함수. 시그널을 이용하여 비순차적 실행
 - sigaction : signal함수와 유사하지만, 보다 세세한 설정이 가능함.
+
+## 파일 관련
+- read/write : recv, send 대신 socket IO 가능
 - lseek : fd 내부를 가리키는 커서를 이동, read 및 write 위치를 조정함
 - fstat : 전달한 fd의 status에 대한 구조체를 반환함
 - fcntl : 파일과 관련된 설정을 변경하는 함수, 비동기 IO를 위해서만 사용 가능함.
