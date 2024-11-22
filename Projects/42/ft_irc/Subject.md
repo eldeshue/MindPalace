@@ -80,19 +80,23 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 - [close](close.md) : 소켓 객체를 제거함
 - [bind](bind.md) : 소켓에 주소를 지정
 - [listen](listen.md) : 서버 측 소켓에 연결 대기를 설정함, listen only 설정
-- accept : 통신 대상과 연결된 소켓을 생성, blocking 함수, select 등으로 non-blocking 하게 동작
-- connect : 소켓에 통신 대상을 연결함, 클라이언트가 호출함. bind를 포함함.
-- send : 데이터 전송, write로 대체 가능
-- recv : 데이터 수신, read로 대체 가능
-- select : FD들을 모니터링함, 이후 특정 FD가 가리키는 소켓에 데이터가 수신되면 이를 감지함
-- kqueue : select의 개선된 버젼
+- [accept](accept.md ) : 통신 대상과 연결된 소켓을 생성, blocking 함수, select 등으로 non-blocking 하게 동작
+- [connect](connect.md) : 소켓에 통신 대상을 연결함, 클라이언트가 호출함. bind를 포함함.
+- [send](send.md) : 데이터 전송, write로 대체 가능
+- [recv](recv.md) : 데이터 수신, read로 대체 가능
+- [select](select.md) : FD들을 모니터링함, 이후 특정 FD가 가리키는 소켓에 데이터가 수신되면 이를 감지함
+- [kqueue](kqueue.md) : select의 개선된 버젼
 ## sockaddr 구조체 관련
+소켓의 FD를 인자로 받아서 해당 소켓의 정보를 sockaddr 구조체에 채워서 돌려줌.
 - setsockopt : 소켓에 옵션을 설정
 - getsockname : 소켓의 세부 정보를 갖는 sockaddr 구조체를 초기화 함. bind 후 사용.
-- getprotobyname : 프로토콜에 대한 정보를 이름으로 획득, 데이터베이스(?)를 순회하면서 탐색
-- gethostbyname : 도메인 이름(domain name)으로 해당 호스트에 대한 정보를 획득 
-- getaddrinfo : addrinfo구조체의 domain address를 바탕으로 IP address를 받아오는 함수
-- freeaddrinfo : addrinfo 구조체를 free
+
+## DNS 관련
+Domain name으로 정보(프로토콜, 호스트 주소)를 얻는 류의 함수
+- getprotobyname : 도메인 이름으로 해당 프로토콜의 정보를 획득, 데이터베이스(?)를 순회하면서 탐색
+- gethostbyname : 도메인 이름으로 해당 호스트 주소(IP)를 획득 
+- getaddrinfo :  도메인 이름으로 호스트 주소(IP)등을 저장한 addrinfo를 받아오는 함수
+- freeaddrinfo : addrinfo 구조체를 free하는 함수
 
 ## 네트워크 데이터 변환 관련 
 네트워크 관련 데이터들의 변환을 위한 함수. endian 변환, IP 변환, 등등
