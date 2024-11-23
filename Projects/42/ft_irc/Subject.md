@@ -82,10 +82,10 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 - [listen](listen.md) : 서버 측 소켓에 연결 대기를 설정함, listen only 설정
 - [accept](accept.md ) : 통신 대상과 연결된 소켓을 생성, blocking 함수, select 등으로 non-blocking 하게 동작
 - [connect](connect.md) : 소켓에 통신 대상을 연결함, 클라이언트가 호출함. bind를 포함함.
-- [send](send.md) : 데이터 전송, write로 대체 가능
-- [recv](recv.md) : 데이터 수신, read로 대체 가능
 - [select](select.md) : FD들을 모니터링함, 이후 특정 FD가 가리키는 소켓에 데이터가 수신되면 이를 감지함
 - [kqueue](kqueue.md) : select의 개선된 버젼
+- send : 데이터 전송, write로 대체 가능, flag로 보다 세밀한 옵션 설정 가능함
+- recv : 데이터 수신, read로 대체 가능, flag로 보다 세밀한 옵션 설정 가능함
 ## sockaddr 구조체 관련
 소켓의 FD를 인자로 받아서 해당 소켓의 정보를 sockaddr 구조체에 채워서 돌려줌.
 - setsockopt : 소켓에 옵션을 설정
