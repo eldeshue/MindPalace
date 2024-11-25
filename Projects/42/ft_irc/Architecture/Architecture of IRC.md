@@ -27,6 +27,10 @@ Date: 2024-11-24
 클라이언트와 연결된 소켓과 클라이언트의 권한 등을 관리하는 객체. 채널에 소유권이 존재함.
 ## Dispatcher
 입력을 식별하고, 입력으로 들어온 커맨드를 해석하고, 그에 따른 동작을 결정하는 모듈. 
+### Server Event
+서버 소켓을 대상으로 하는 이벤트는 별도 처리 필요.
+### Client Event - Command
+
 ### Parser
 커맨드를 해석하는 모듈. Mapper의 key값을 생성함.
 ### Command Mapper
