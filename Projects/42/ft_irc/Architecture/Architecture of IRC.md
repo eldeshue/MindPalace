@@ -43,6 +43,8 @@ Date: 2024-11-24
 
 특별한 권한을 지닌 클라이언트인 operator가 존재함. 이들은 네트워크에 대한 권한이 존재. 특정 작업을 요청할 수 있음.
 
+
+- level of moderation : 채널에 대한 권한 레벨
 - unique nickname
 - host name/address
 - client name
