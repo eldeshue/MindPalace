@@ -11,6 +11,7 @@ Date: 2024-11-24
 이벤트 루프(kqueue or select)를 돌려서 여러 이벤트를 처리함.
 채널의 추가 및 삭제, 채널에 대한 클라이언트의 추가 및 삭제. 
 
+- server's listen only 소켓 오브젝트
 - 채널 객체를 관리할 컬렉션(vector?, list?)
 - 이벤트 루프
 
@@ -46,6 +47,7 @@ Date: 2024-11-24
 - host name/address
 - client name
 - name of server that nonnected to
+- 소켓 object
 ## Dispatcher
 입력을 식별하고, 입력으로 들어온 커맨드를 해석하고, 그에 따른 동작을 결정하는 모듈. 
 
