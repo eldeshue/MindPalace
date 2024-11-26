@@ -26,7 +26,10 @@ Date: 2024-11-24
 
 추후의 확장 가능성을 위해서는 채널 별로 IO를 분리 시켜야 함. 
 
-- 채널의 이름
+- 채널의 이름, string
+- 채널의 타입(추상 클래스, 생성시 정해짐) 및 모드(상태값, 빈번하게 변경 가능)
+- 채널의 토픽, string
+- 동시에 가입 가능한 채널 수 제한
 - 클라이언트 객체를 관리할 컬렉션(unordered_map)
 - 특정 클라이언트의 소속 여부를 빠르게 확인해줘야 함.
 	-> disjoint set?
@@ -42,13 +45,18 @@ Date: 2024-11-24
 - unique nickname
 - host name/address
 - client name
-- 
+- name of server that nonnected to
 ## Dispatcher
 입력을 식별하고, 입력으로 들어온 커맨드를 해석하고, 그에 따른 동작을 결정하는 모듈. 
-### Server Event
-서버 소켓을 대상으로 하는 이벤트는 별도 처리 필요.
-### Client Event - Command
 
+서버의 멤버 변수가 될 예정
+
+- 감시 대상 관련 자원 (kqfd, kevent vector OR fd_set, etc)을 참조(소유하지 않음)
+- 
+### Server Event
+서버 소켓에서 비롯된 이벤트(사용자 추가 등). 별도 처리 필요.
+### Client Event - Command
+클라이언트 소켓에서 비롯된 이벤트.
 ### Parser
 커맨드를 해석하는 모듈. Mapper의 key값을 생성함.
 ### Command Mapper
