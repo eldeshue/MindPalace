@@ -13,9 +13,8 @@ Date: 2024-11-24
 
 - server's listen only 소켓 오브젝트
 - 채널 객체를 관리할 컬렉션(vector?, list?)
-- 이벤트 루프
 
-싱글톤 패턴?
+싱글톤 패턴
 ### Channel
 메시지를 주고 받는 clients의 그룹. 서버는 채널을 통해서 클라이언트를 관리함.
 
@@ -51,12 +50,11 @@ Date: 2024-11-24
 - name of server that nonnected to
 - 소켓 object
 ## Dispatcher
-입력을 식별하고, 입력으로 들어온 커맨드를 해석하고, 그에 따른 동작을 결정하는 모듈. 
+kqueue 이벤트 루프를 통해서 입력을 식별하고, 입력으로 들어온 커맨드를 해석하고, 그에 따른 동작을 결정하는 모듈. 
 
-서버의 멤버 변수가 될 예정
+서버의 멤버 변수가 될 예정임. 이후 멀티 스레드 서버의 경우, channel per thread, dispatcher per thread로 확장할 수 있는지 고민중.
 
 - 감시 대상 관련 자원 (kqfd, kevent vector OR fd_set, etc)을 참조(소유하지 않음)
-- 
 ### Server Event
 서버 소켓에서 비롯된 이벤트(사용자 추가 등). 별도 처리 필요.
 ### Client Event - Command
