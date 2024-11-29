@@ -27,6 +27,9 @@ Date: 2024-11-19
 - C++98 표준 준수
 - C언어의 함수 사용 가능
 - 외부 라이브러리 사용 불가능.
+- Google C++ style
+- cpplint
+- Google Test
 ### MacOs 관련
 write() 사용 관련해서 non-blocking한 사용을 위해서 FD에 fcntl()을 사용할 필요가 있음. 오직 이 용도로만 fcntl을 사용해야 함.
 ``` MacOs Only
