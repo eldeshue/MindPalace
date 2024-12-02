@@ -44,7 +44,7 @@ std::function<void(int)> dfsMat = [&](const int curNode)
 		{
 			adjMatrix[curNode][nextNode]--;
 			//adjMatrix[nextNode][curNode]--; // undirected edge, needed
-			dfsMat(nextNode)
+			dfsMat(nextNode);
 		}
 	}
 	eulerPath.push_back(curNode);
