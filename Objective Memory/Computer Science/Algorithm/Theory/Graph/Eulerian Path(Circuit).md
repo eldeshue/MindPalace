@@ -32,16 +32,46 @@ tags:
 ## Code
 
 ``` C++
+
+// adjMatrix
+std::vector<int> eulerPath;
+std::vector<std::vector<int>> adjMatrix(N, std::vector<int>(N, 0));
+
+std::function<void(int)> dfsMat = [&]()
+{
+};
+
+std::function<void(int)> nonRecurseDfsMat = []()
+{
+
+};
+
+// adjList
+std::vector<int> eulerPath;
+std::vector<std::deque<int>> adjList(N);
+
+std::function<void(int)> dfsList = [&]()
+{
+};
+
+std::function<void(int)> nonRecurseDfsMat = [&]()
+{
+
+};
+
 ```
 
 ## About Code
+핵심 아이디어는 해당 노드에 대해서, 모든 자식의 경우를 조사한 후 판단을 수행하는 것.
 
+보통 adjMatrix에 recursive하게 구현하는 편.
 # Analysis
 
-## Time Complexity
+## Time Complexity - O(V + E)
 
-## Spatial Complexity
+## Spatial Complexity - O(V + E)
 
 # Summary
 
-- 오일러 경로의 존재성 문제 : [[16168. 퍼레이드]]
+- 무향 그래프에서 오일러 경로의 존재성을 판단하는 문제 : [[16168. 퍼레이드]]
+- 무향 그래프에서 오일러 회로를 구하는 문제 : 1199. 오일러 회로
