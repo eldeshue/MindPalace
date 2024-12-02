@@ -55,7 +55,7 @@ std::reverse(eulerPath.begin(), eulerPath.end()); // directed graph, reverse
 std::vector<int> eulerPath;
 std::vector<std::deque<int>> adjList(N);
 
-std::function<void(int)> dfsList = [&](const int curNOde)
+std::function<void(int)> dfsList = [&](const int curNode)
 {
 	while (!adjList[curNode].empty()) // if the adj list is vector, use iteratioin
 	{
@@ -63,7 +63,7 @@ std::function<void(int)> dfsList = [&](const int curNOde)
 		adjList[curNode].pop_front(); // directed edge
 		dfsList(nextNode);
 	}
-	eulerianPath.push_back(curNode);
+	eulerPath.push_back(curNode);
 };
 std::reverse(eulerPath.begin(), eulerPath.end()); // directed graph, reverse
 
@@ -87,7 +87,7 @@ std::function<void(int)> nonRecurseDfsList = [&](const int startNode)
 		else
 		{
 			// No more neighbors to visit, add node to result
-			result.push_back(curNode);
+			eulerPath.push_back(curNode);
 			nodeStack.pop();
 		}
 	}
