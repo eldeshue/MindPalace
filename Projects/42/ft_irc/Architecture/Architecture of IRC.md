@@ -36,10 +36,10 @@ Date: 2024-11-24
 
 채널과 별도로 관리되어야 함.
 
-- level of moderation : 채널에 대한 권한 레벨
 - unique nickname
-- host name/address
-- client name
+- user name/address
+- real name
+- level of moderation : 채널에 대한 권한 레벨
 - name of server that connected to
 - 소켓 object
 ## Server
