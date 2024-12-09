@@ -17,13 +17,13 @@ Date: 2024-11-22
        call **accept**() to get a socket for that connection.
        Alternatively, you can set the socket to deliver **SIGIO** when
        activity occurs on a socket; see [socket(7)](https://man7.org/linux/man-pages/man7/socket.7.html) for details.
-       
+
        https://man7.org/linux/man-pages/man2/accept.2.html
-   
+
 # Signature
 
 ```C
-#include <sys/socket.h> 
+#include <sys/socket.h>
 
 int accept(int sockfd , struct sockaddr *_Nullable restrict  addr, socklen_t *_Nullable restrict addrlen);
 ```
@@ -41,6 +41,6 @@ sockaddr 구조체의 포인터, sockaddr_in 등이 이에 해당됨. NULL을 �
 ### 3. addrlen
 sockaddr의 크기. 본래의 크기보다 그 값이 작으면 truncate 됨.
 ## Return values
-성공적으로 호출된 경우, 연결된 대상을 향하는 socket의 fd를 반환함. 
+성공적으로 호출된 경우, 연결된 대상을 향하는 socket의 fd를 반환함. 따라서 반환된 fd는 bind 불필요함.
 
 실패한 경우 -1. 다만 SOCK_NONBLOCK으로 설정하고 연결 대상이 존재하지 않아서 즉시 return하는 경우, errno값을 EAGAIN 혹은 EWOULDBLOCK으로 세팅함. select 계열과 함께 사용하면 볼 일 없음.

@@ -19,7 +19,7 @@ Date: 2024-11-19
 
 ## 안정성
 
-서버 프로그램인 만큼, 높은 수준의 안정성을 필요로 함. 
+서버 프로그램인 만큼, 높은 수준의 안정성을 필요로 함.
 - 예측 불가능한 종료가 없어야 함. 심지어 메모리가 부족한 경우에도 마찬가지
 	-> exception을 적극적으로 사용할 필요가 있어보임.
 
@@ -28,6 +28,7 @@ Date: 2024-11-19
 - C언어의 함수 사용 가능
 - 외부 라이브러리 사용 불가능.
 - Google C++ style
+	-> 예외적으로 exception 허용한다.
 - cpplint
 - Google Test
 ### MacOs 관련
@@ -41,7 +42,7 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 - **Server-to-Client only**, must not implement server-to-server communicatioin.
 - 동시에 여러 클라이언트와 소통 가능해야 함.
 - Forking 금지
-- Non-blocking 
+- Non-blocking
 - 단일 polling
 - 여러 Client 중 하나를 선정
 - TCP/IP
@@ -60,7 +61,7 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 - TOPIC : 채널 주제 설정
 - MODE : 채널 모드 설정 - 옵션에 따라 별도의 기능
 	- i : 초대 모드 설정
-	- t : TOPIC 커맨드 제한 설정 
+	- t : TOPIC 커맨드 제한 설정
 	- k : 채널 비밀번호 설정
 	- o : 채널 관리자 권한 설정(부여)
 	- l : 채널에 대한 사용자 제한 설정
@@ -97,11 +98,11 @@ fcntl(fd, F_SETFL, O_NONBLOCK);
 ## DNS 관련
 Domain name으로 정보(프로토콜, 호스트 주소)를 얻는 류의 함수
 - getprotobyname : 도메인 이름으로 해당 프로토콜의 정보를 획득, 데이터베이스(?)를 순회하면서 탐색
-- gethostbyname : 도메인 이름으로 해당 호스트 주소(IP)를 획득 
+- gethostbyname : 도메인 이름으로 해당 호스트 주소(IP)를 획득
 - getaddrinfo :  도메인 이름으로 호스트 주소(IP)등을 저장한 addrinfo를 받아오는 함수
 - freeaddrinfo : addrinfo 구조체를 free하는 함수
 
-## 네트워크 데이터 변환 관련 
+## 네트워크 데이터 변환 관련
 네트워크 관련 데이터들의 변환을 위한 함수. endian 변환, IP 변환, 등등
 - htons : host to network short, 호스트의 short 데이터의 바이트 오더를 네트워크의 오더로 변환
 - htonl : host to network long, 호스트의 long 데이터의 바이트 오더를 네트워크의 오더로 변환
