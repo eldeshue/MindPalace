@@ -37,12 +37,10 @@ user name을 획득하는 방법에는 두 가지가 있는데, 하나는 ident 
 ### 3. real_name_ - private, const
 user name과 마찬가지로, registration 과정 중 USER 커맨드로 획득하는 이름이다.
 
-### 4. socket object - private, pointer, nullable
-네트워크 정보를 포함하는 TcpSocket 객체의 포인터.
+### 4. socket_object_ - private, nullable
+네트워크 정보를 포함하는 TcpSocket 객체.
 
-**포인터로 설정한 이유는 소켓의 비정상 종료로 인한 자원 제거를 처리하기 위함임.**
-
-### 5. Permission - private
+### 5. permission_ - private
 사용자가 소속된 채널에 대해 갖는 권한(오퍼레이터 등)에 대한 값. 열거형으로 처리될 예정임.  
 
 설정에 따라서 바뀔 수 있는 값이므로, mutable.
@@ -52,6 +50,12 @@ IRC 네트워크에서 클라이언트는 해당 서버와 직접 연결되지 �
 
 > 이는 과제의 요구 사항이 아니므로, 생략 가능하다.
 
+### 7. left_buffer_ - private, mutable
+소켓에서 읽어온 데이터를 임시로 저장하는 string 변수. 정식 message의 형태가 될 때 마다 비워짐.
+
+non-block 소켓이므로, read의 양에 대한 고려가 필요함. 여러 메시지에 대한 내용이 한 번에 들어올 수 있으므로, per socket 한 read buffer를 두어 순차적으로 처리할 필요가 있다고 생각됨. 
+
+하나의 message로 포매팅 될 때 마다 Dispatcher로 전달될 예정임.
 ## Member Functions
 
 ### 1. Constructor
@@ -59,20 +63,19 @@ IRC 네트워크에서 클라이언트는 해당 서버와 직접 연결되지 �
 
 - construct with listening fd : client를 향하는 소켓을 accept하기 위한 server bind된 소켓의 fd
 ### 2. Destructor
-TcpSocket 객체에 대한 pointer를 delete 해줘야 함. 비정상 종료로 인해서 client와 별개로 delete 될 수 있다고 생각함. 이 경우, client도 제거해줘야 함.
 
 ### 3. getter
 각 원소(이름, 소켓 등)에 대한 gettter.
 
-### 4. ClearSocket
-socket의 비정상 해제 시 호출, 포인터에 대해서 delete한 후 NULL로 값을 바꾼다.
-### 5. ReceiveMessage - public
+### 4. ReceiveMessage - public
 
 TcpSockt의 fd에서 내부적인 buffer로 read, std::string으로 return한다. return value는 dispatcher로 전달됨. 
 
 이 때, read buffer의 size는 최대 4096 + 512 Byte이다.
 
 >**Most IRC servers limit messages to 512 bytes in length,** including the trailing `CR-LF` characters. Implementations which include [message tags](https://ircv3.net/specs/extensions/message-tags.html) need to allow additional bytes for the **tags** section of a message; clients must allow 8191 additional bytes and **servers must allow 4096 additional bytes**.
-### 6. SendMessage - public
+
+함수의 local한 char read_buffer[]를 전달하여 읽은 후, 온전한 message는 return하고 남은 내용은 left_buffer_에 저장함.
+### 5. SendMessage - public
 
 적절한 응답을 위해서 formatting된 string을 인자로 받아서 c_str()으로 소켓에 write한다.
