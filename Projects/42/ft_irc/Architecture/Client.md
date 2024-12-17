@@ -21,10 +21,10 @@ connection이 해제될 때(quit 혹은 비정상 종료) 명시적으로 제거
 
 ## Member Variables
 
-### 1. nick_name_ - private, const 
+### 1. nick_name_ - private 
 채널 내에서 사용자를 식별하기 위한 이름(string). 채널 내에서 고유해야 함.
 
-registration 과정에서 NICK command로 획득. 
+registration 과정에서 NICK command로 획득.  NICK 커맨드에 의해서 변경 가능함.
 
 nick name에는 conventioin이 존재하므로, 초기화 하기 전에 check 필요함.
 ### 2. user_name_ - private, const
