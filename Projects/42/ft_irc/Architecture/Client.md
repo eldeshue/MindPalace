@@ -21,24 +21,29 @@ connection이 해제될 때(quit 혹은 비정상 종료) 명시적으로 제거
 
 ## Member Variables
 
-### 1. nick_name_ - private 
+### 1. nick_name_ - private, mutable 
 채널 내에서 사용자를 식별하기 위한 이름(string). 채널 내에서 고유해야 함.
 
 registration 과정에서 NICK command로 획득.  NICK 커맨드에 의해서 변경 가능함.
+필요에 따라서 NICK으로 언제든지 변경 가능함. 
 
 nick name에는 conventioin이 존재하므로, 초기화 하기 전에 check 필요함.
 ### 2. user_name_ - private, const
-nick name이 채널에서만 유용한, 단순 식별을 위한 이름이라면, user_name은 보다 실명에 기반하는 이름이다. 
+nick name이 채널에서만 유용한, 단순 식별을 위한 이름이라면, user_name은 서버 내부적으로 관리하는 클라이언트 관리를 위한 이름임.  nickname은 채널 내 식별을 위한 이름이라 고유하지만 쉽게 바꿀 수 있으므로 서버는 user name으로 사용자를 구분해야 함.
 
 user name을 획득하는 방법에는 두 가지가 있는데, 하나는 ident protocol로 획득하는 것이고, 다른 하나는 USER 커맨드로 client에서 획득하는 것이다. ident protocol로 획득하는 경우, 이는 잘 인증된 이름이다. 다만, 클라이언트가 실행되는 host 쪽에서 ident server가 준비되어 있어야 인증이 가능 하므로, 획득하지 못할 수 있다. 
 
 > ident 서버로 인증된 user name이 우선이며, 단순 USER 커맨드로 획득한 경우, 앞에 '~'를 붙여서 구분한다. 
 
+한 번 연결을 확립하면 변경할 수 없음. 
 ### 3. real_name_ - private, const
 user name과 마찬가지로, registration 과정 중 USER 커맨드로 획득하는 이름이다.
 
-### 4. socket_object_ - private, nullable
+**채널 내 사용자 사이에서 정보를 공유하기 위한 목적**으로 유지하는 데이터이다.
+### 4. socket_ - private, nullable
 네트워크 정보를 포함하는 TcpSocket 객체.
+
+**host name에 해당하는 필드임**
 
 ### 5. permission_ - private
 사용자가 소속된 채널에 대해 갖는 권한(오퍼레이터 등)에 대한 값. 열거형으로 처리될 예정임.  
