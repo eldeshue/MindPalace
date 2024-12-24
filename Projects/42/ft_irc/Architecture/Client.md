@@ -84,14 +84,14 @@ TcpSockt의 fd에서 system buffer로 read, optional<std::string>으로 return�
 
 함수의 local한 char read_buffer[]를 전달하여 읽은 후, 온전한 message는 return하고 남은 내용은 left_buffer_에 저장함.
 
-read_size는 어떻게 정해야 할까?
-
 기본적으로 peek를 활용하여 system buffer를 읽어보고, 하나의 메시지를 이룰 수 있는 경우에만 read를 수행하고, 나머지는 system buffer에 그대로 남겨둔다. 이를 통해서 io-multiplexing의 특성을 온전히 활용할 수 있을 것으로 생각된다.
+
+read size를 512byte로 설정. 이는 프로토콜에서 규정하는 메시지 최대 크기로, 이 보다 큰 메시지는 규약 위반임. 
 #### 4.1 불충분한 메시지
-- **no-ops를 return함**
+- **left buffer에 데이터를 저장하고, no-ops를 return함**
 
 #### 4.2 1개 이상의 메시지
-- **하나의 온전한 메시지는 optional에 담아서 return**
+- **온전한 메시지 들은 optional vector string에 담아서 return**
 
 ### 5. SendMessage - public
 
