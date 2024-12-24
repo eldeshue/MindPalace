@@ -74,7 +74,7 @@ non-block 소켓이므로, read의 양에 대한 고려가 필요함. 여러 메
 
 ### 4. ReceiveMessage - public
 
-TcpSockt의 fd에서 내부적인 buffer로 read, std::string으로 return한다. return value는 dispatcher로 전달됨. 
+TcpSockt의 fd에서 system buffer로 read, optional<std::string>으로 return한다. return value는 dispatcher로 전달됨. 
 
 이 때, read buffer의 size는 최대 4096 + 512 Byte이다.
 
